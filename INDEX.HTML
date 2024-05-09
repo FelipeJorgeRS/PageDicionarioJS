@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)https://alexmontanha.github.io/maps/ -->
+<html lang="pt-br"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Minha coleção de termos Javascript">
+    <meta name="author" content="Felipe Jorge">
+    <meta name="keywords" content="Java script, html, css, web, desenvolvimento, front-end">
+    <title>Meu Dicionário Javascript</title>
+    <link rel="stylesheet" href="DESING.CSS">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="db.js"></script>
+    <script src="db.json"></script>
+    <script src="MAIN.JS"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="centered-container">
+            <img class="center-content" src="imagens/iconjs.png" width="250" alt="Logo do Javascript, moderno e sólido em um cubo, amarelo contendo as letras J e S" title="Meu Dicionário Javascript">
+        </div>
+        <div>
+            <h1>Dicionário Javascript!</h1>
+            <p>Pesquise uma palavra na caixa abaixo, para ver seu significado:</p>
+            <select title="Tópicos" id="slc-topicos" onchange="onSelectChange()">
+            <option value="1">O que é JavaScript</option><option value="2">Statement 'for'</option><option value="3">Funções em JavaScript</option><option value="4">Objetos em JavaScript</option></select>
+           <p> <label for="description" id="rotulo_titulo">Descição</label></p>
+           <textarea id="texto_descritivo" name="description" title="Descição" placeholder=""></textarea>
+        </div>
+    </div>
+
+
+</body></html>
